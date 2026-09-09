@@ -1,14 +1,15 @@
 # Dependencies
 node_modules/
+*node_modules/
 .pnpm-store/
 .yarn/
 
 # Environment variables
-.env
-.env.local
-.env.*.local
-.env.development
-.env.production
+*.env
+*.env.local
+*.env.*.local
+*.env.development
+*.env.production
 
 # Build & Output
 dist/
